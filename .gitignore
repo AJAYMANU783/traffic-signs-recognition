@@ -1,0 +1,7 @@
+*.csv
+data*
+*.pyc
+__pycache__
+*.pth
+*.pth.tar
+*.p
