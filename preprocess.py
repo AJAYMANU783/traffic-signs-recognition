@@ -8,7 +8,7 @@ from modules.Extender import Extender
 from constants import NUM_CLASSES
 
 
-parser = argparse.ArgumentParser(description='PyTorch GTSRB example')
+parser = argparse.ArgumentParser(description='Preprocess GTSRB data')
 parser.add_argument('--data', type=str, default='data/train_images', metavar='D',
                     help="folder where data is train data is located")
 parser.add_argument('--save_loc', type=str, default='.', metavar='P',
@@ -16,7 +16,7 @@ parser.add_argument('--save_loc', type=str, default='.', metavar='P',
 parser.add_argument('--intensity', type=float, default=0.75, metavar='LR',
                     help='Augmentation intesity (default: 0.75)')
 parser.add_argument('--class_count', type=int, default=10000, metavar='LR',
-                    help='Each class will have this number of data after extension and balancing (Default: 10k)')
+                    help='Each class will have this number of samples after extension and balancing (Default: 10k)')
 
 
 def main():
