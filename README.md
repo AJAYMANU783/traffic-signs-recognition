@@ -2,7 +2,9 @@
 
 Recognizing and classifying traffic sign images into 43 classes taken from [GTSRB](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) dataset.
 
-This project was done as part of assignment for NYU Computer Vision class under Rob Fergus and was held as a Kaggle competition. The model is designed using Spatial Transformer Network with a modified version of IDSIA networks and trained with heavily augmented data. The models reaches about __99.4%__ test set accuracy on Kaggle Leaderboard which is quite above than human accuracy. Whole process of developing the project can be read in [report]().
+This project was done as part of assignment for NYU Computer Vision class under Rob Fergus and was held as a Kaggle competition. The model is designed using Spatial Transformer Network with a modified version of IDSIA networks and trained with heavily augmented data. The models reaches about __99.4%__ test set accuracy on Kaggle Leaderboard which is quite above than human accuracy.
+
+Whole development process of the project can be read in [report]().
 
 ## Data
 
@@ -15,7 +17,7 @@ Project can be run in two ways, `main.ipynb` jupyter notebook (originally used f
 
 Do make sure to run `pip install -r requirements.txt` before running anything
 
-## Python files steps:
+## Steps for running via python files
 
 Follow the steps below to run the project from python files:
 
@@ -71,6 +73,10 @@ Sample command:
 ```
 python evaluate.py --data data --resume early_stopping_checkpoint
 ```
+
+## Pretrained Model
+
+Download pretrained model from [here](https://drive.google.com/open?id=18GDnNg2SNFtBg6pHJVH50DJGx1Vozc6c).
 
 ## Credits
 
