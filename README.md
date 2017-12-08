@@ -2,7 +2,7 @@
 
 Recognizing and classifying traffic sign images into 43 classes taken from [GTSRB](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) dataset.
 
-This project was done as part of assignment for NYU Computer Vision class under Rob Fergus and was held as a Kaggle competition. The model is designed using Spatial Transformer Network with a modified version of IDSIA networks and trained with heavily augmented data. The models reaches about __99.4%__ test set accuracy on Kaggle Leaderboard which is quite above than human accuracy.
+This project was done as part of assignment for NYU Computer Vision class under Rob Fergus and was held as a Kaggle competition. The model is designed using Spatial Transformer Network with a modified version of IDSIA networks and trained with heavily augmented data. The models reaches about __99.5%__ test set accuracy on Kaggle Leaderboard which is quite above than human accuracy.
 
 Whole development process of the project can be read in [report](./report/report.pdf).
 
