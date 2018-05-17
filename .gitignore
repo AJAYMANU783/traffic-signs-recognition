@@ -1,5 +1,6 @@
 *.csv
 data*
+!data.py
 *.pyc
 __pycache__
 *.pth
